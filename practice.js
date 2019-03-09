@@ -67,7 +67,7 @@ favoriteThings.book = `Harry Potter`;
 const backPack = { }; 
 const item = `firstPocket`; 
 
-backPack.item = `chapstick`; 
+backPack[item] = `chapstick`; 
 backPack.color = `blue`; 
 
 
@@ -130,12 +130,13 @@ const methodCollection = { };
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console. 
 */
 
+
 methodCollection.alertHello = (str) => {
-  alert(str);
+  alert('hello');
 }; 
 
 methodCollection.logHello = (str) => {
-  console.log(str); 
+  console.log('hello'); 
 }
 
 /*
